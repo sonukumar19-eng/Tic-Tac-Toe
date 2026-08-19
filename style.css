@@ -1,0 +1,133 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+
+body{
+
+    background-color:black;
+    text-align:center;
+
+}
+
+
+
+.game{
+
+    height:70vh;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+}
+
+
+
+.container{
+
+    height:60vmin;
+    width:60vmin;
+
+    display:flex;
+    flex-wrap:wrap;
+
+    justify-content:center;
+    align-items:center;
+
+    gap:1rem;
+
+}
+
+
+
+.cell{
+
+    height:18vmin;
+    width:18vmin;
+
+    border-radius:1rem;
+
+    border:none;
+
+    box-shadow:0 0 1rem white;
+
+    font-size:5rem;
+    font-weight:bold;
+
+    color:black;
+
+    cursor:pointer;
+
+}
+
+
+
+#res{
+
+    margin-top:2rem;
+
+    box-shadow:0 0 1rem white;
+
+    padding:1rem 2rem;
+
+    font-size:1.5rem;
+
+    font-weight:bold;
+
+    border-radius:1rem;
+
+    border:none;
+
+    cursor:pointer;
+
+}
+
+
+
+#new{
+
+    margin-top:2rem;
+
+    box-shadow:0 0 1rem white;
+
+    padding:1rem 2rem;
+
+    font-size:1.5rem;
+
+    font-weight:bold;
+
+    border-radius:1rem;
+
+    border:none;
+
+    cursor:pointer;
+
+}
+
+
+
+#msg{
+
+    font-size:5vmin;
+
+    color:white;
+
+}
+
+
+
+.msg-container{
+
+    height:20vmin;
+
+}
+
+
+
+.hide{
+
+    display:none;
+
+}
